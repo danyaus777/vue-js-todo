@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/vue.min.js"></script>
+    <script defer src="assets/js/main.js"></script>
+    <title>TODO</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container">
+                    <a href="{% url 'index' %}" class="header__logo">
+                        <h1 class="logo__text">TODO</h1>
+                    </a>
+                    <div class="header__name">
+                        <p class="name__user">Даниил Усков</p>
+                    </div>
+                    <div class="header__button btn">
+                        <a href="#" class="btn_text">Добавить блокнот</a>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="main__container">
+                    <section class="section__todo">
+                        <div class="todo__block">
+                            <div class="todo__head">
+                                <p class="todo__title">Учеба</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+</body>
+
+</html>
